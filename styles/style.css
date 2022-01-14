@@ -3,9 +3,15 @@
 /* common utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color:whitesmoke;
 }
-
+.container{
+    padding: 112px 105px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    
+}
 
 /* navigation bar style */
 
@@ -28,10 +34,11 @@ nav{
     margin: 0 auto;
     padding: 80px 20px;
 }
-.influencer-color{
+.influencer-product{
     color: #3A3A3A;
     font-size: 24px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .nav-list{
@@ -46,4 +53,93 @@ nav{
     color: #3A3A3A;
     padding: 15px 10px;
     font-weight: 600;
+}
+
+/* navgation bar style end */
+
+
+/* influencer info and popular collection style */
+
+
+/* influencer style start */
+
+.influencer-info{
+    display: flex;
+    grid-column-gap: 132px;
+}
+.influencer-detail>h1{
+    color: #3A3A3A;
+    margin-bottom: 49px;
+    font-size: 52px;
+}
+
+.influencer-detail>button{
+    color: white;
+    background-color: #E02C6D;
+    width: 194px;
+    height: 44px;
+    border: 1px solid;
+    border-radius: 41px;
+    margin-top: 20px;
+}
+.image-1{
+    margin-bottom: 211px;
+}
+
+/* influencer style start */
+
+/* popular collection style star */
+
+
+
+.popular-collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    
+}
+.collections{
+    margin-left: 30px;
+}
+.collection-1{
+    box-shadow: 0 4px 16px -4px rgba(141, 140, 140, 0.4);
+    width: 329px;
+    height: 476px;
+    
+}
+.collection-banner img{
+    text-align: center;
+    margin: 17px 15px;
+}
+.collection-detail{
+    margin-left: 14px;
+}
+.section-title{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+}
+
+
+.popular-collection>h1{
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+.collection-detail>h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+.collection-detail>p{
+    height: 36px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.collection-p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #787885;
 }
