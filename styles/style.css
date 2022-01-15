@@ -164,15 +164,25 @@ nav{
     border: 1px solid white;
 }
 .creative-photo img{
-    height: 100%;
-    width: 80%;
-    background-size: cover;
-    background-blend-mode: overlay;
+    width: 500px;
+    height: 414px;
+    margin: 150px;
+    margin-left: 20px;
 }
 .fa-star{
     font-size: 12px;
 }
 
+
+.creative .vai-special{
+    color: #E02C6D;
+    letter-spacing: 4px;
+}
+.creative h1, .vaispecial{
+    font-weight: bold;
+    font-size: 38px;
+    
+}
 
 /* footer section style */
 
