@@ -143,3 +143,10 @@ nav{
     font-weight: bold;
     color: #787885;
 }
+.button2{
+    width: 99px;
+    height: 24px;
+    color: #E02C6D;
+    float: right;margin-top: 50px;
+    border: 1px solid whitesmoke;
+}
